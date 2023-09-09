@@ -30,8 +30,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 w-full border-b bg-background">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between space-x-4 px-6 sm:space-x-0">
         <MainNav />
-        <form
-        onSubmit={onsubmit}
+        <form onSubmit={onSubmit}
         className="hidden items-center lg:inline-flex">
           <Input
             id="search"
